@@ -22,18 +22,18 @@ Finally, we tested whether our limited set of genes we identified improved upon 
 ## Data
 ![workflow](https://github.com/banerjeeshayantan/CC_MODS_codes/blob/main/datasets-1.png)
 
-Training data: Sweeney TE, Shidham A, Wong HR, Khatri P. A comprehensive time-course-based multicohort analysis of sepsis and sterile inflammation reveals a robust diagnostic gene set. Sci Transl Med 2015 May 13;7(287):287ra71. PMID: 25972003
+**Training data:** Sweeney TE, Shidham A, Wong HR, Khatri P. A comprehensive time-course-based multicohort analysis of sepsis and sterile inflammation reveals a robust diagnostic gene set. Sci Transl Med 2015 May 13;7(287):287ra71. PMID: 25972003
 
-Validation data: Snyder A, Jedreski K, Fitch J, Wijeratne S, Wetzel A, Hensley J, Flowers M, Bline K, Hall MW, Muszynski JA. Transcriptomic Profiles in Children With Septic Shock With or Without Immunoparalysis. Front Immunol. 2021 Oct 1;12:733834. doi: 10.3389/fimmu.2021.733834. PMID: 34659221; PMCID: PMC8517409.
+**Validation data:** Snyder A, Jedreski K, Fitch J, Wijeratne S, Wetzel A, Hensley J, Flowers M, Bline K, Hall MW, Muszynski JA. Transcriptomic Profiles in Children With Septic Shock With or Without Immunoparalysis. Front Immunol. 2021 Oct 1;12:733834. doi: 10.3389/fimmu.2021.733834. PMID: 34659221; PMCID: PMC8517409.
 
-Test data:  
+**Test data:**  
 * Claudia P. Cabrera, Joanna Manson, Joanna M. Shepherd, Hew D. Torrance, David Watson, M. Paula Longhi, Mimoza Hoti, Minal B. Patel, Michael O'Dwyer, Sussan Nourshargh, Daniel J. Pennington, Michael R. Barnes, Karim Brohi. Signatures of inflammation and impending multiple organ dysfunction in the hyperacute phase of trauma: A prospective cohort study
-* Shankar R, Leimanis ML, Newbury PA, Liu K et al. Gene expression signatures identify paediatric patients with multiple organ dysfunction who require advanced life support in the intensive care unit. EBioMedicine 2020 Dec;62:103122. PMID: 33248372
+* Shankar R, Leimanis ML, Newbury PA, Liu K et al. Gene expression signatures identify pediatric patients with multiple organ dysfunction who require advanced life support in the intensive care unit. EBioMedicine 2020 Dec;62:103122. PMID: 33248372
 
 
 
 ## Dependencies
-scikit-learn - 1.1.1 
+scikit-learn - 1.1.1  
 pandas - 1.4.1  
 numpy - 1.18.5  
 imblearn - 0.9.1  
