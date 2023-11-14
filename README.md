@@ -29,7 +29,7 @@ Finally, we tested whether our limited set of genes we identified improved upon 
 * Claudia P. Cabrera, Joanna Manson, Joanna M. Shepherd, Hew D. Torrance, David Watson, M. Paula Longhi, Mimoza Hoti, Minal B. Patel, Michael O'Dwyer, Sussan Nourshargh, Daniel J. Pennington, Michael R. Barnes, Karim Brohi. Signatures of inflammation and impending multiple organ dysfunction in the hyperacute phase of trauma: A prospective cohort study
 * Shankar R, Leimanis ML, Newbury PA, Liu K et al. Gene expression signatures identify pediatric patients with multiple organ dysfunction who require advanced life support in the intensive care unit. EBioMedicine 2020 Dec;62:103122. PMID: 33248372
 
-## Code Description
+## Code Description  
 * **MODS_DEG_analysis.R** contains codes required to reproduce the differential expression analysis using the training dataset (GSE66099). It generates a list of differentially expressed genes, a volcano plot, a heatmap, and plots for gene ontology analysis.
 * **Prepare_datasets_for_training_testing.R** contains codes to prepare the training, validation, and test sets for machine learning analysis. It performs normalization (if not done already), probes to gene mapping, and averages the expression of duplicate genes. It repeats the same process for both MODS and mortality labels. The mortality labels are needed to compare the machine learning performances between our list of MODS and already published mortality features available from https://www.synapse.org/#!Synapse:syn5612563
 * **Stable_features.py** contains code to run the repeated cross-validation experiments to generate a list of 111 stable features for further analysis.
