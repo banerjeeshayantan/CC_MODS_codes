@@ -20,17 +20,23 @@ Finally, we tested whether our limited set of genes we identified improved upon 
 ![workflow](https://github.com/banerjeeshayantan/CC_MODS_codes/blob/main/Figure%201-1.png)
 
 ## Data
-Training data was derived from a study by Brown et al., where they published mutation data from experimental assays labelled as drivers/passengers.
-><cite>Brown AL, Li M, Goncearenco A, Panchenko AR (2019) Finding driver mutations in cancer: Elucidating the role of background mutational processes. PLOS Computational Biology 15(4): e1006981. https://doi.org/10.1371/journal.pcbi.1006981</cite>  
+![workflow](https://github.com/banerjeeshayantan/CC_MODS_codes/blob/main/datasets-1.png)
 
-Independent test dataset from a benchamrking study by Martelotto et al. consisted of 989 labelled driver and passenger mutations. 
-><cite>Martelotto, L.G., Ng, C.K., De Filippo, M.R. et al. Benchmarking mutation effect prediction algorithms using functionally validated cancer-related missense mutations. Genome Biol 15, 484 (2014). https://doi.org/10.1186/s13059-014-0484-1</cite>  
+Training data: Sweeney TE, Shidham A, Wong HR, Khatri P. A comprehensive time-course-based multicohort analysis of sepsis and sterile inflammation reveals a robust diagnostic gene set. Sci Transl Med 2015 May 13;7(287):287ra71. PMID: 25972003
+
+Validation data: Snyder A, Jedreski K, Fitch J, Wijeratne S, Wetzel A, Hensley J, Flowers M, Bline K, Hall MW, Muszynski JA. Transcriptomic Profiles in Children With Septic Shock With or Without Immunoparalysis. Front Immunol. 2021 Oct 1;12:733834. doi: 10.3389/fimmu.2021.733834. PMID: 34659221; PMCID: PMC8517409.
+
+Test data:  
+* Claudia P. Cabrera, Joanna Manson, Joanna M. Shepherd, Hew D. Torrance, David Watson, M. Paula Longhi, Mimoza Hoti, Minal B. Patel, Michael O'Dwyer, Sussan Nourshargh, Daniel J. Pennington, Michael R. Barnes, Karim Brohi. Signatures of inflammation and impending multiple organ dysfunction in the hyperacute phase of trauma: A prospective cohort study
+* Shankar R, Leimanis ML, Newbury PA, Liu K et al. Gene expression signatures identify paediatric patients with multiple organ dysfunction who require advanced life support in the intensive care unit. EBioMedicine 2020 Dec;62:103122. PMID: 33248372
+
+
 
 ## Dependencies
-scikit-learn - 0.22.1  
-pandas - 0.25.3  
+scikit-learn - 1.1.1 
+pandas - 1.4.1  
 numpy - 1.18.5  
-imblearn - 0.5.0  
+imblearn - 0.9.1  
 ggplot2 - 3.3.2  
 reshape2 - 1.4.4   
 stringr - 1.4.0  
@@ -39,10 +45,5 @@ readr - 1.4.0
 caret - 6.0.86
 
 ## Citation
-Banerjee, S.; Raman, K.; Ravindran, B. Sequence Neighborhoods Enable Reliable Prediction of Pathogenic Mutations in Cancer Genomes. Cancers 2021, 13, 2366. https://doi.org/10.3390/cancers1310236
-
-### Acknowledgements
-* [Initiative for Biological Systems Engineering](https://ibse.iitm.ac.in/)
-* [Robert Bosch Centre for Data Science and Artificial Intelligence (RBCDSAI)](https://rbcdsai.iitm.ac.in/)
-
-<img title="IBSE logo" src="https://github.com/RBC-DSAI-IITM/rbc-dsai-iitm.github.io/blob/master/images/IBSE_logo.png" height="200" width="200"><img title="RBC-DSAI logo" src="https://github.com/RBC-DSAI-IITM/rbc-dsai-iitm.github.io/blob/master/images/logo.jpg" height="200" width="351">
+Atreya MR* , Banerjee S* , Lautz AJ, et al. Machine learning-driven identification of gene-expression signatures correlated with multiple organ dysfunction trajectories and complex sub-endotypes of pediatric septic shock.
+Research Square; 2022. DOI: 10.21203/rs.3.rs-2093663/v1 [* denotes equal contribution]
