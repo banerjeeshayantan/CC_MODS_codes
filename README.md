@@ -8,11 +8,10 @@ Gene Expression Signatures Associated with Multiple Organ Dysfunction Syndrome (
 - [Data](#data)
 - [Dependencies](#dependencies)
 - [Preprint Link](#links)
-- [Acknowledgements](#acknowledgements)
+- [Citation](#citation)
 
 ## Description
-Multiple organ dysfunction syndrome (MODS) disproportionately drives sepsis morbidity and mortality among critically ill patients. The biology of this heterogeneous syndrome is complex, dynamic, and incompletely understood. Gene-expression signatures associated with MODS trajectories may improve prediction of at-
-risk patients and inform their underlying biology. In the current study, we leveraged publicly available datasets to identify the gene signatures associated with a persistent MODS trajectory among critically ill patients and unraveled biological mechanisms at play. We implemented supervised machine learning (ML) approaches to identify a
+Multiple organ dysfunction syndrome (MODS) disproportionately drives sepsis morbidity and mortality among critically ill patients. The biology of this heterogeneous syndrome is complex, dynamic, and incompletely understood. Gene-expression signatures associated with MODS trajectories may improve the prediction of at-risk patients and inform their underlying biology. In the current study, we leveraged publicly available datasets to identify the gene signatures associated with a persistent MODS trajectory among critically ill patients and unraveled biological mechanisms at play. We implemented supervised machine learning (ML) approaches to identify a
 parsimonious set of genes predictive of the outcome of interest, trained and validated a model to identify those at high risk of MODS reliably, and demonstrated the reproducibility of our approach across test datasets irrespective of the cause of organ dysfunctions.
 Finally, we tested whether our limited set of genes we identified improved upon previously published gene sets that have been demonstrated to predict sepsis mortality in identifying patients at risk of MODS.
 
@@ -29,8 +28,6 @@ Finally, we tested whether our limited set of genes we identified improved upon 
 **Test data:**  
 * Claudia P. Cabrera, Joanna Manson, Joanna M. Shepherd, Hew D. Torrance, David Watson, M. Paula Longhi, Mimoza Hoti, Minal B. Patel, Michael O'Dwyer, Sussan Nourshargh, Daniel J. Pennington, Michael R. Barnes, Karim Brohi. Signatures of inflammation and impending multiple organ dysfunction in the hyperacute phase of trauma: A prospective cohort study
 * Shankar R, Leimanis ML, Newbury PA, Liu K et al. Gene expression signatures identify pediatric patients with multiple organ dysfunction who require advanced life support in the intensive care unit. EBioMedicine 2020 Dec;62:103122. PMID: 33248372
-
-
 
 ## Dependencies
 scikit-learn - 1.1.1  
