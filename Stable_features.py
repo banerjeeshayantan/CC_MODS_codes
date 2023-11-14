@@ -123,7 +123,7 @@ combined = pd.concat([gene_only.reset_index(drop=True), clinical_cols], axis=1)
 deg=pd.read_table('DEG_day3day7.txt')
 deg1=deg['X'].to_list()
 
-def model_fit_and_validate_xgb(X,y,n,sampling,model,deg1):
+def model_fit_and_validate(X,y,n,sampling,model,deg1):
     tprs = []
     base_fpr = np.linspace(0, 1, 101)
     idx = np.arange(0, len(y))
