@@ -7,7 +7,6 @@ Gene Expression Signatures Associated with Multiple Organ Dysfunction Syndrome (
 - [Overall Workflow](#overall-workflow)
 - [Data](#data)
 - [Dependencies](#dependencies)
-- [Preprint Link](#links)
 - [Citation](#citation)
 
 ## Description
