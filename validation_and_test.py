@@ -417,6 +417,7 @@ df = df.sort_values(by = ['auc'], ascending=False)
 filename = '~/Ablation_study_with_10938_as_validation/'+classifier_names[0]+".csv"
 df.to_csv(filename,index=False)
 
+###################################################################### Reproducibility of external validation analysis ##############################################################################################################################
 #based on the validation results, top 20 features, threshold 0f 0.488 and ET classifier gave the best results. Now testing the model on unseen cohorts: GSE144406 and E-MTAB-5882
 feats = 20
 X_train_sel = gene_only_66099[deg_final[0:feats]]
@@ -433,8 +434,6 @@ sen_5882,spe_5882, auc_5882, mcc_5882 = print_metrics("Adult cohort 5882|",pd.Da
 sen_1548, spe_1548, auc_1548, mcc_1548 = print_metrics("Adult cohort 1548|", pd.DataFrame(scaling.fit_transform(combined_test_1548),columns = combined_test_1548.columns),labs_test_1548, X_samp, y_samp, threshold, best_model,feats)
 sen_144406, spe_144406, auc_144406, mcc_144406 = print_metrics("Pediatric cohort 144406|", pd.DataFrame(scaling.fit_transform(combined_test_166640),columns = combined_test_166640.columns),labs_test_166640, X_samp, y_samp, threshold, best_model,feats)
 
-#draw ROC curve
-#for KNN
 plt.figure(figsize=(15,15))
 classifier = ["ET"]
 #best_model = pd.read_pickle('best_model_ADA.pkl')
