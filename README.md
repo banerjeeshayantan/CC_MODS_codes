@@ -49,4 +49,4 @@ readr - 1.4.0
 caret - 6.0.86
 
 ## Citation
-Atreya MR*, Banerjee S*, Lautz AJ, Alder MN, Varisco BM, Wong HR, Muszynski JA, Hall MW, Sanchez-Pinto LN, Kamaleswaran R; Genomics of Pediatric Septic Shock Investigators. Machine learning-driven identification of the gene-expression signature associated with a persistent multiple organ dysfunction trajectory in critical illness. EBioMedicine. 2023 Dec 23;99:104938. doi: 10.1016/j.ebiom.2023.104938. Epub ahead of print. PMID: 38142638. [* denotes equal contribution]
+Atreya, M. R.^, **Banerjee, S.^**, Lautz, A. J., Alder, M. N., Varisco, B. M., Wong, H. R., Muszynski, J. A., Hall, M. W., Sanchez-Pinto, L. N., Kamaleswaran, R., & Genomics of Pediatric Septic Shock Investigators (2023). Machine learning-driven identification of the gene-expression signature associated with a persistent multiple organ dysfunction trajectory in critical illness. EBioMedicine, 99, 104938. Advance online publication. https://doi.org/10.1016/j.ebiom.2023.104938. [***^ denotes equal contribution***]
