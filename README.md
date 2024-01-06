@@ -49,5 +49,4 @@ readr - 1.4.0
 caret - 6.0.86
 
 ## Citation
-Atreya MR* , Banerjee S* , Lautz AJ, et al. Machine learning-driven identification of gene-expression signatures correlated with multiple organ dysfunction trajectories and complex sub-endotypes of pediatric septic shock.
-Research Square; 2022. DOI: 10.21203/rs.3.rs-2093663/v1 [* denotes equal contribution]
+Atreya MR*, Banerjee S*, Lautz AJ, Alder MN, Varisco BM, Wong HR, Muszynski JA, Hall MW, Sanchez-Pinto LN, Kamaleswaran R; Genomics of Pediatric Septic Shock Investigators. Machine learning-driven identification of the gene-expression signature associated with a persistent multiple organ dysfunction trajectory in critical illness. EBioMedicine. 2023 Dec 23;99:104938. doi: 10.1016/j.ebiom.2023.104938. Epub ahead of print. PMID: 38142638. [* denotes equal contribution]
